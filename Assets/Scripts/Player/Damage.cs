@@ -5,6 +5,7 @@ using UnityEngine;
 public class Damage : MonoBehaviour {
 	
 	public GameObject hpbar;
+	public AudioClip SelectSound;
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +24,7 @@ public class Damage : MonoBehaviour {
 //		}
 		if(col.gameObject.tag == "punch"){
 			hpbar.gameObject.SendMessage("onDamage", 0.1);
+			SoundManager.instance.RandomizeSfx(SelectSound);
 		}
 	}
 }

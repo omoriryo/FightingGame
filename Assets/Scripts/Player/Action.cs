@@ -6,6 +6,7 @@ public class Action : MonoBehaviour {
 
 	public GameObject punch;
 	public Vector2 SPEED = new Vector2(0.1f, 0.1f);
+	public AudioClip SelectSound;
 
 	private bool isPunch = false;
 	private bool isJump = false;
@@ -99,6 +100,7 @@ public class Action : MonoBehaviour {
 					isPressed = true;
 					animator.SetTrigger ("Punch");
 					isPunch = true;
+					//SoundManager.instance.RandomizeSfx(SelectSound);
 					//punch.SetActive (false);
 				}
 			}

@@ -489,6 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   punch: {fileID: 1424860149}
   SPEED: {x: 0.1, y: 0.1}
+  SelectSound: {fileID: 8300000, guid: c603a15375e2d4a07827283e8c6ba0a9, type: 3}
 --- !u!61 &738885364
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -552,6 +553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hpbar: {fileID: 1404599319}
+  SelectSound: {fileID: 8300000, guid: c603a15375e2d4a07827283e8c6ba0a9, type: 3}
 --- !u!1 &1033331793
 GameObject:
   m_ObjectHideFlags: 0
@@ -998,6 +1000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   punch: {fileID: 1055489906}
   SPEED: {x: 0.1, y: 0.1}
+  SelectSound: {fileID: 8300000, guid: c603a15375e2d4a07827283e8c6ba0a9, type: 3}
 --- !u!114 &1159704456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1010,6 +1013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hpbar: {fileID: 1460856116}
+  SelectSound: {fileID: 8300000, guid: c603a15375e2d4a07827283e8c6ba0a9, type: 3}
 --- !u!95 &1159704457
 Animator:
   serializedVersion: 3
